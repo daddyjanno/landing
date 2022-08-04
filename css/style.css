@@ -1,0 +1,102 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Importing all components file */
+@import url("components/button.css");
+@import url("components/cards.css");
+@import url("components/footer.css");
+
+/* Utilities */
+@media (max-width: 3440px) {
+  /* Pour un écran < 3440px, cette classe CSS s'applique */
+  .container {
+    width: 1100px;
+  }
+}
+@media (max-width: 1920px) {
+  /* Pour un écran < 1920px, cette classe CSS s'applique */
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* Pour un écran < 1200px, cette classe CSS s'applique */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 150px;
+  }
+}
+body {
+  margin: 0;
+  color: white;
+  text-shadow: 0 0 5px rgba(230,230,230, 0.6);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  background-image: url(../images/v617batch2-bb-02-technology.jpg);
+  background-size: auto;
+  background-attachment: local;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.container {
+  width: 900px;
+  margin: auto;
+}
+#banner {
+  position: relative;
+  height: 30vh;
+  text-align: center;
+  align-items: center;
+  color: white;
+  margin: 0;
+  padding: 37% 0;
+}
+
+#banner h1 {
+  font-weight: bolder;
+  position: relative;
+  color: white;
+  margin-top: 0;
+
+}
+
+#banner p {
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  opacity: 0.8;
+  padding: 48px 0;
+}
